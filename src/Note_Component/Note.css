@@ -54,5 +54,6 @@
 @media (max-width: 480px) {
   .notelist-item {
     margin-top: 10px;
+    margin-left: 14px;
   }
 }

@@ -32,7 +32,10 @@
     margin-top: 20px;
   }
   .search span {
-    left: 76%;
+    left: 72%;
     top: 21%;
+  }
+  .search input {
+    margin-left: 15%;
   }
 }

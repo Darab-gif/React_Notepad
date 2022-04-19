@@ -112,4 +112,14 @@
     float: right;
     font-size: 18px;
   }
+  .note-body input {
+    margin-left: 14%;
+  }
+  .note-body textarea {
+    margin-left: 14%;
+  }
+  .note-body button {
+    margin-top: 10px;
+    margin-left: 14%;
+  }
 }
