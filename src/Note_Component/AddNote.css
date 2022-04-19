@@ -71,7 +71,7 @@
 
 .note-body button:hover {
   background: #3dde4544;
-  color: #ffffff33;
+  color: #ffffff;
 }
 
 .note-foot {
@@ -96,4 +96,20 @@
   justify-content: center;
   justify-items: center;
   align-items: center;
+}
+
+@media (max-width: 480px) {
+  .note-body {
+    display: flexbox;
+    justify-items: center;
+    margin-top: 20px;
+  }
+  .note-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    float: right;
+    font-size: 18px;
+  }
 }

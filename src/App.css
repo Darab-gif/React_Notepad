@@ -52,3 +52,27 @@
   top: -4px;
   left: 30px;
 }
+
+@media (max-width: 480px) {
+  .toggle {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 30px;
+    width: 75px;
+    top: 12%;
+  }
+  .toggle::after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 5px;
+    left: 7px;
+  }
+  .dark-mode .toggle::after {
+    background-color: transparent;
+    box-shadow: 5px 5px #15181f;
+    top: -2px;
+    left: 36px;
+  }
+}

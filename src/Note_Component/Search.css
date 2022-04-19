@@ -24,3 +24,15 @@
   top: 19%;
   font-weight: 100;
 }
+
+@media (max-width: 480px) {
+  .search {
+    display: flexbox;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .search span {
+    left: 76%;
+    top: 21%;
+  }
+}

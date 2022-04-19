@@ -16,3 +16,17 @@
 .header-head span {
   margin-left: -10px;
 }
+
+@media (max-width: 480px) {
+  .header-body {
+    display: flex;
+    justify-content: center;
+  }
+  .header-head {
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .header-head strong {
+    margin: 5px;
+  }
+}

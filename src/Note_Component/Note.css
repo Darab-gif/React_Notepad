@@ -50,3 +50,9 @@
   display: flex;
   float: right;
 }
+
+@media (max-width: 480px) {
+  .notelist-item {
+    margin-top: 10px;
+  }
+}
