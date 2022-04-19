@@ -1,0 +1,52 @@
+.notelist-head {
+  background: rgb(19, 32, 59);
+  color: #fff;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notelist-item {
+  width: 90%;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.notelist-head h1 {
+  margin-left: 5px;
+}
+
+.notelist-head .pencil {
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+
+.notelist-head .span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notelist-head .can {
+  margin-right: 4%;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.notelist-content {
+  background-color: #5dc515;
+  color: #fff;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.notelist-content .date {
+  display: flex;
+  float: right;
+}

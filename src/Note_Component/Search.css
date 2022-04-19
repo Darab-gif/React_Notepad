@@ -1,0 +1,26 @@
+.search {
+  display: flexbox;
+  justify-content: center;
+}
+
+.search input {
+  width: 70%;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  margin-left: 20%;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.search input:focus {
+  border: 2px solid #3dde45;
+}
+
+.search span {
+  position: absolute;
+  font-size: 45px;
+  left: 84%;
+  top: 19%;
+  font-weight: 100;
+}

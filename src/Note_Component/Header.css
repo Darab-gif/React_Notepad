@@ -1,0 +1,18 @@
+.header-body {
+  display: flex;
+  justify-content: center;
+}
+
+.header-head {
+  font-size: 46px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header-head strong {
+  margin: 10px;
+  color: rgb(240, 60, 20);
+}
+
+.header-head span {
+  margin-left: -10px;
+}
