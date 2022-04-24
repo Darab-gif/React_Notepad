@@ -11,7 +11,7 @@
   height: 40px;
   width: 75px;
   background-color: #15181f;
-  position: fixed;
+  position: absolute;
   top: 5%;
   right: 10px;
   border-radius: 20px;
@@ -52,8 +52,8 @@
     appearance: none;
     height: 30px;
     width: 75px;
-    top: 12%;
-    position: fixed;
+    top: 2%;
+    position: absolute;
   }
   .toggle::after {
     content: "";
