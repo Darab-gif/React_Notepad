@@ -10,6 +10,7 @@
   height: 40px;
   margin-bottom: 20px;
   position: relative;
+  background-color: blue;
 }
 
 .toggle {
@@ -18,7 +19,7 @@
   height: 40px;
   width: 75px;
   background-color: #15181f;
-  position: absolute;
+  position: fixed;
   top: 5%;
   right: 10px;
   border-radius: 20px;
@@ -60,6 +61,7 @@
     height: 30px;
     width: 75px;
     top: 12%;
+    position: fixed;
   }
   .toggle::after {
     content: "";
