@@ -17,24 +17,13 @@
   border: 2px solid #3dde45;
 }
 
-.search span {
-  position: absolute;
-  font-size: 45px;
-  left: 84%;
-  top: 19%;
-  font-weight: 100;
-}
-
 @media (max-width: 480px) {
   .search {
     display: flexbox;
     justify-content: center;
     margin-top: 20px;
   }
-  .search span {
-    left: 72%;
-    top: 21%;
-  }
+
   .search input {
     margin-left: 15%;
   }
