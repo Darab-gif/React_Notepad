@@ -54,6 +54,8 @@
     width: 75px;
     top: 2%;
     position: absolute;
+    outline: none;
+    cursor: pointer;
   }
   .toggle::after {
     content: "";
