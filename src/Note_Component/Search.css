@@ -21,7 +21,7 @@
   .search {
     display: flexbox;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .search input {
