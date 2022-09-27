@@ -36,14 +36,9 @@ const App = () => {
     setNotes(del);
   };
 
-  const Edit = (id, title, body) => {
-    const edits = notes.filter((item) => item.id === id);
-    const newNote = {
-      id: id,
-      title: title,
-      body: body,
-    };
-    console.log(...edits, newNote);
+  const Edit = (id) => {
+    /*const editNote = notes.find((note) => note.id === id);
+    setNotes(editNote);*/
   };
 
   const AddNote = (title, body) => {
@@ -57,7 +52,11 @@ const App = () => {
     };
 
     const newNote = [...notes, note];
-    setNotes(newNote);
+    if (title === "" && body === "") {
+      alert("Write something");
+    } else {
+      setNotes(newNote);
+    }
   };
   return (
     <div className={`${darkMode && "dark-mode"}`}>
